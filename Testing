@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int Main()
+{
+  STRING s="Adios mundo cruel! ";
+  cOut << S << "\n";
+}
+/* error STRING no esta declarado en el espacio
+	lo mismo con el cOut
+	y que "S" no esta declarada 
+	luego que la funcion no retorna nada  por lo que lo trata como error retornando 1
+	luego manda error al no reconocer ni el tipo "STRING" y por que cOut no existe
+	despues no corre por que no es "Main" sino "main" */
