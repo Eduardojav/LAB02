@@ -12,7 +12,7 @@ int main()
     cout << " ambos son iguales "<<endl;
   if (first < second)
     cout << first << "es mayor lexigraficamente "<<endl;
-  elif (first > second)
+  else if (first > second)
     cout << second << "es mayor lexigraficamente "<<endl;
   else
   cout << "son iguales"<<endl;
