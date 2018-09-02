@@ -8,14 +8,13 @@ int main()
   string first;
   string second;//al usar int manda error por que al ser int sensible me da basura si le doy letras
   cin >> first >> second;
-  if (first==second) 
+  if (first==second)
     cout << " ambos son iguales "<<endl;
-  if (first < second)
-    cout << first << "es mayor lexigraficamente "<<endl;
-  else if (first > second)
-    cout << second << "es mayor lexigraficamente "<<endl;
+  else if (first < second)
+    cout << first <<" "<< "es mayor lexigraficamente "<<endl;
   else
-  cout << "son iguales"<<endl;
+    cout << second <<" "<< "es mayor lexigraficamente "<<endl;
 system("pause");
-return 0; 
+return 0;
 }
+
