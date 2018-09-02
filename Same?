@@ -1,0 +1,19 @@
+#include <iostream>
+#include <string>
+#include<windows.h>
+using namespace std;
+int main()
+{
+  cout <<"ingresa dos nombres"<<endl;
+  string first;
+  string second;//al usar int manda error por que al ser int sensible me da basura si le doy letras
+  cin >> first >> second;
+  if (first==second) 
+    cout << " ambos son iguales "<<endl;
+  if (first < second)
+    cout << first << " esta antes"<<endl;
+  if (first > second)
+    cout << first << " esta despues"<<endl;
+system("pause");
+return 0; 
+}
